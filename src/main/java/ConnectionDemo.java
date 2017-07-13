@@ -29,7 +29,7 @@ public class ConnectionDemo {
         //Everything will be considered as key, value pairs
         Document doc1 = new Document("Name: ", "Suwadith")
                 .append("Age", "21")
-                .append("Gender", 1)
+                .append("Gender", "Male")
                 .append("Address", new Document("No", "221B").append("Street", "Baker").append("City", "London"));
 
         //Inserts the newly created document on to the Collection that we created
